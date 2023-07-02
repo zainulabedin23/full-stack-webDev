@@ -1,0 +1,98 @@
+.jumbotron{
+    background: url(matt-hardy-6ArTTluciuA-unsplash.jpg);
+    background-size: 100% 100%;
+  height: 100vh;
+
+}
+.footer{
+background-color: white;
+height: 300px;
+}
+img{
+    width: 150px;
+
+}
+.para{
+    color: white;
+}
+.featured{
+    padding: auto;
+    text-align: center;
+
+    /* margin-left: 200px; */
+    /* padding: 10px; */
+}
+.trial{
+    text-align: center;
+    padding: 20px 0 40px 0;
+    color: black;
+}
+.trial img{
+    width: 200px;
+    height: 70px;
+    margin: 20px;
+}
+.container img{
+    cursor: pointer;
+}
+/* .footer{
+    background-color: #f4cdcd;
+    font-size: 15px;
+    padding: 10px 0;
+    height: 50px;
+} */
+/* add styling for devices between 480px and 760px */
+@media (min-width: 480px) and (max-width:760px) {
+    .jumbotron{
+        /* background: url("matt-hardy-6ArTTluciuA-unsplash.jpg"); */
+        /* background-size: cover; */
+        height: 450px;
+        margin: 0;
+
+
+    }
+    .para{
+   color: white;
+
+    border-radius: 23px;
+    text-align: center;
+}
+    .featured{
+        text-align: center;
+    }
+    .featured h1{
+        padding-top: 30px;
+
+    }
+    .featured p{
+        font-size: 17px;
+    }
+    @media  (max-width:480px){
+        .jumbotron{
+        /* background: url("matt-hardy-6ArTTluciuA-unsplash.jpg"); */
+        /* background-size: cover; */
+        height: 450px;
+        margin: 0;
+
+
+    }
+    .logo{
+
+        width: 40px;
+        height: 40px;
+    }
+    .logo1{
+        margin-top: 10px;
+    }
+    .featured{
+        text-align: center;
+    }
+    .featured h1{
+        padding-top: 10px;
+
+    }
+    .featured p,.featured a{
+        font-size: 13px;
+    }
+    }
+}

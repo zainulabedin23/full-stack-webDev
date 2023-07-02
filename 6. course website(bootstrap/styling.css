@@ -1,0 +1,228 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+    font-family: sans-serif;
+}
+#bgvideo{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+    }
+    @media  (max-width:768px){
+        body{
+            background-color: white;
+        }
+        #bgvideo{
+            display: none;
+        }
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        background-color: #949292;
+        color: white;
+    }
+    #scrollspyHeading1{
+        background-color: transparent;
+        color: white;
+        text-align: center;
+        padding-top: 15%;
+    }
+    #scrollspyHeading1 h1{
+        margin-bottom: 30px;
+    }
+    #scrollspyHeading1 h2{
+        margin-bottom: 30px;
+    }
+    #scrollspyHeading1 .btn{
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    #scrollspyHeading2{
+      color: whitesmoke;
+      text-align: center;  
+      padding-top: 100px;
+    }
+    .container{
+        max-width: 1000px;
+    }
+    .caption p{
+        background-color: rgba(255,255,255,0.3);
+    }
+    #scrollspyHeading2 h3{
+        font-weight: bold;
+    }
+    #scrollspyHeading2 p{
+        font-size: 17px;
+        margin-bottom: 30px;
+        color: black;
+    }
+    .img-fluid{
+        height: 120px;
+    
+    }
+    #cascrollspyHeading3{
+    padding-top: 100px;
+    
+    }
+    #carouselExampleCaptions{
+        width: 60%;
+        margin: 0 auto;
+    
+    
+    }
+    .carousel-inner .carousel-item img{
+        height: 500px;
+        margin: 0 auto;
+    }
+    .carousel-caption{
+        background-color: rgba(255,255, 255,0.8);
+        color: rgb(22, 18, 18);
+        position: relative;
+        left: auto;
+        right: auto;
+    }
+    
+    @media  (max-width:768px){
+        .col-md-4 h3{
+            color: black;
+      
+        }
+        .carousel-inner .carousel-item img{
+            height: 300px;
+    
+        }
+        #scrollspyHeading1{
+    
+            color: black;
+            font-family: sans-serif;
+    
+        }
+
+    }
+    @media  (max-width:400px){
+        .carousel-inner .carousel-item img{
+            height: 200px;
+    
+        }
+    }
+    
+     /* * {
+        font-family: sans-serif;
+      }
+      
+      #bgvideo {
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -100;
+      }
+      
+      @media (max-width: 768px) {
+        body {
+          background-color: white;
+        }
+        #bgvideo {
+          display: none;
+        }
+      }
+      
+      .navbar-nav .nav-link.active,
+      .navbar-nav .nav-link.show {
+        background-color: #949292;
+        color: white;
+      }
+      
+      #scrollspyHeading1 {
+        background-color: transparent;
+        color: white;
+        text-align: center;
+        padding-top: 15%;
+      }
+      
+      #scrollspyHeading1 h1 {
+        margin-bottom: 30px;
+      }
+      
+      #scrollspyHeading1 h2 {
+        margin-bottom: 30px;
+      }
+      
+      #scrollspyHeading1 .btn {
+        font-size: 20px;
+        border-radius: 8px;
+      }
+      
+      #scrollspyHeading2 {
+        color: whitesmoke;
+        text-align: center;
+        padding-top: 100px;
+      }
+      
+      .container {
+        max-width: 1000px;
+      }
+      
+      .caption p {
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+      
+      #scrollspyHeading2 h3 {
+        font-weight: bold;
+      }
+      
+      #scrollspyHeading2 p {
+        font-size: 17px;
+        margin-bottom: 30px;
+        color: black;
+      }
+      
+      .img-fluid {
+        height: 120px;
+      }
+      
+      #cascrollspyHeading3 {
+        padding-top: 100px;
+      }
+      
+      #carouselExampleCaptions {
+        width: 60%;
+        margin: 0 auto;
+      }
+      
+      .carousel-inner .carousel-item img {
+        height: 500px;
+        margin: 0 auto;
+        object-fit: cover;
+      }
+      
+      .carousel-caption {
+        background-color: rgba(255, 255, 255, 0.8);
+        color: rgb(22, 18, 18);
+        position: relative;
+        left: auto;
+        right: auto;
+      }
+      
+      @media (max-width: 768px) {
+        .col-md-4 h3 {
+          color: black;
+        }
+        .carousel-inner .carousel-item img {
+          height: 300px;
+        }
+        #scrollspyHeading1 {
+          color: black;
+          font-family: sans-serif;
+        }
+      }
+      
+      @media (max-width: 400px) {
+        .carousel-inner .carousel-item img {
+          height: 200px;
+        }
+      }
+       */
